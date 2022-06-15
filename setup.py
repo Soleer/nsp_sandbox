@@ -1,14 +1,12 @@
 import setuptools
-from git import Repo
+
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-repo = Repo(".git")
-
 setuptools.setup(
     name = "nsp_sandbox",
-    version = repo.head.commit.message,
+    version = "0.0.1",
     author = "Niklas Wünstel",
     author_email = "nsp@soleer.de",
     description = "Nurse Scheduling Problem Sandbox package.",
