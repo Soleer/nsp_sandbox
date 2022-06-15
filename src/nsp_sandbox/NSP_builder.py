@@ -1,6 +1,3 @@
-from torch import classes
-
-
 class NSPbuilder:
     print_info: bool
 

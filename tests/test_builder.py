@@ -1,4 +1,5 @@
-from nsp_solver.NSP_builder import NSPbuilder
+import pytest
+from nsp_sandbox.NSP_builder import NSPbuilder
 
 def test_init():
     builder = NSPbuilder()
