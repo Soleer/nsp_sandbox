@@ -6,4 +6,5 @@ class NSPbuilder:
 
     def __init__(self, print_info=True) -> None:
         self.print_info = print_info
+        self.version = "0.0.1"
     
