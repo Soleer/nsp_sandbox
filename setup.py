@@ -6,15 +6,15 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name = "nsp_sandbox",
-    version = "0.0.1",
+    version = "0.0.1.1",
     author = "Niklas Wünstel",
     author_email = "nsp@soleer.de",
     description = "Nurse Scheduling Problem Sandbox package.",
     long_description = long_description,
     long_description_content_type = "text/markdown",
-    url = "https://github.com/soleer/nsp_sandbox",
+    url = "https://github.com/Soleer/nsp_sandbox",
     project_urls ={
-        "Bug Tracker": "https://github.com/pypa/nsp_sandbox/issues",
+        "Bug Tracker": "https://github.com/Soleer/nsp_sandbox/issues",
             },
     classifiers=[
         "Programming Language :: Python :: 3",
